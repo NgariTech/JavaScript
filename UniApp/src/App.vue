@@ -1,20 +1,26 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
+import Landingpage from './components/Landingpage.vue'
+import Loginpage from './components/Loginpage.vue'
+import Signuppage from './components/Signuppage.vue'
+import About from './components/AboutUs.vue'
 </script>
 
 <template>
   <header>
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
+    </header>
 
   <main>
-    <TheWelcome />
+   <div class="wrapper">
+      <Landingpage/>
+      <Loginpage/>
+      <Signuppage/>
+      <About/>
+      </div>
   </main>
+
 </template>
 
 <style scoped>
