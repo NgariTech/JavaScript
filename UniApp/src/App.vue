@@ -1,10 +1,5 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
-import Landingpage from './components/Landingpage.vue'
-import Loginpage from './components/Loginpage.vue'
-import Signuppage from './components/Signuppage.vue'
-import About from './components/AboutUs.vue'
+
 </script>
 
 <template>
@@ -12,13 +7,10 @@ import About from './components/AboutUs.vue'
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
     </header>
 
+  
+  
   <main>
-   <div class="wrapper">
-      <Landingpage/>
-      <Loginpage/>
-      <Signuppage/>
-      <About/>
-      </div>
+    <router-view></router-view>
   </main>
 
 </template>
