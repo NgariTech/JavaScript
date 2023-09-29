@@ -1,17 +1,16 @@
 <script setup>
-import Navbar from './components/Navbar.vue'
-import Footer from',/components/Footer.vue'
 
+import Navbar from './components/Navbar.vue'
+import Footer from './components/Footer.vue'
 
 </script>
 
 <template>
   <v-app>
     <Navbar/>
-    <v-main>
+    <main>
       <router-view></router-view>
-    </v-main>
-    <!-- <Footer/> -->
+    </main>
   </v-app>
 </template>
 

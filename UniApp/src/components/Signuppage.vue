@@ -4,6 +4,6 @@
 
 <template>
     <div id='landingpage'>
-       <h1>Sign Up</h1>
+       <h1>Signup to Iverson University</h1>
     </div>
 </template>

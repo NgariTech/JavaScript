@@ -4,13 +4,13 @@ import { createApp } from 'vue'
 import App from './App.vue'
 
 import router from './routes'
-//Vuetify
+// Vuetify
 import 'vuetify/styles'
 import {createVuetify} from 'vuetify'
 import * as components from 'vuetify/components'
 import * as directives from 'vuetify/directives'
 //Icons
-import { aliases, mdi } from "vuetify/lib/iconsets/mdi"
+import { aliases, mdi } from "vuetify/lib/iconsets/mdi";
 import '@mdi/font/css/materialdesignicons.css'
 
 const vuetify = createVuetify({
@@ -23,11 +23,8 @@ const vuetify = createVuetify({
         components,
         directives,
 })
-createApp(App).use(vuetify).mount('#app')
+createApp(App).use(vuetify).use(router).mount('#app')
 
-
-
-createApp(App).use(router).mount('#app')
 
 
 
